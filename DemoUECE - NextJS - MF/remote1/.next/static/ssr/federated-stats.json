@@ -1,0 +1,1 @@
+{"sharedModules":[],"federatedModules":[{"remote":"remote1","entry":"static/chunks/remoteEntry.js","sharedModules":[],"exposes":{"./title":[{"components_exposedTitle_js":["static/chunks/components_exposedTitle_js-a1823080e081cba6-fed.js"]}],"./remote1":[{"pages_index_js":["static/chunks/pages_index_js-15cb7197f1c1334f-fed.js"]}]},"remoteModules":{}}]}

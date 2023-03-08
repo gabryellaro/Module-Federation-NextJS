@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST={"_app.js -> ./_app.js?hasBoundary":{"id":"_app.js -> ./_app.js?hasBoundary","files":["static/chunks/pages__app_js_hasBoundary.js"]},"index.js -> ./index.js?hasBoundary":{"id":"index.js -> ./index.js?hasBoundary","files":["static/chunks/pages_index_js_hasBoundary.js"]}}
