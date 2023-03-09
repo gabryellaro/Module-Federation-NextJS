@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <nav
       style={{
-        background: 'cadetblue',
+        background: '#7b1fa2',
         width: '100%',
         height: '100px',
         color: 'white',
@@ -15,7 +15,7 @@ const Nav = () => {
         fontSize: '24px',
       }}
     >
-      This component is from the Host React App hosted at localhost:8081
+      Hello from the Remote React App hosted at localhost:3003
     </nav>
   );
 };

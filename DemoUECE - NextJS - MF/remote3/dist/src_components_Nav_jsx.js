@@ -17,7 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 const Nav = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("nav", {
     style: {
-      background: 'cadetblue',
+      background: '#7b1fa2',
       width: '100%',
       height: '100px',
       color: 'white',
@@ -27,7 +27,7 @@ const Nav = () => {
       alignItems: 'center',
       fontSize: '24px'
     }
-  }, "This component is from the Host React App hosted at localhost:8081");
+  }, "Hello from the Remote React App hosted at localhost:3003");
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Nav);
 

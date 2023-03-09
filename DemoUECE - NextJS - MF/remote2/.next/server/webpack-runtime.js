@@ -148,9 +148,9 @@
 /******/ 			var promises = [];
 /******/ 			switch(name) {
 /******/ 				case "default": {
-/******/ 					register("next/dynamic", "12.2.2", function() { return __webpack_require__.e("node_modules_next_dynamic_js").then(function() { return function() { return __webpack_require__(/*! ../node_modules/next/dynamic.js */ "../node_modules/next/dynamic.js"); }; }); });
-/******/ 					register("next/link", "12.2.2", function() { return __webpack_require__.e("node_modules_next_link_js").then(function() { return function() { return __webpack_require__(/*! ../node_modules/next/link.js */ "../node_modules/next/link.js"); }; }); });
-/******/ 					register("next/script", "12.2.2", function() { return __webpack_require__.e("node_modules_next_script_js").then(function() { return function() { return __webpack_require__(/*! ../node_modules/next/script.js */ "../node_modules/next/script.js"); }; }); });
+/******/ 					register("next/dynamic", "12.2.2", function() { return __webpack_require__.e("node_modules_next_dynamic_js").then(function() { return function() { return __webpack_require__(/*! ./node_modules/next/dynamic.js */ "./node_modules/next/dynamic.js"); }; }); });
+/******/ 					register("next/link", "12.2.2", function() { return __webpack_require__.e("node_modules_next_link_js").then(function() { return function() { return __webpack_require__(/*! ./node_modules/next/link.js */ "./node_modules/next/link.js"); }; }); });
+/******/ 					register("next/script", "12.2.2", function() { return __webpack_require__.e("node_modules_next_script_js").then(function() { return function() { return __webpack_require__(/*! ./node_modules/next/script.js */ "./node_modules/next/script.js"); }; }); });
 /******/ 				}
 /******/ 				break;
 /******/ 			}

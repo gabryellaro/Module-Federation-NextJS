@@ -3,6 +3,9 @@ import Head from 'next/head';
 import dynamic from 'next/dynamic';
 
 const RemoteTitle = dynamic(() => import('remote1/title'), {suspense: true});
+const ReactRemote3Component = dynamic(() => import('remote3/Nav'), {
+  ssr: false,
+});
 
 const Home = ({loaded}) => {
   return (
@@ -16,6 +19,7 @@ const Home = ({loaded}) => {
           <RemoteTitle/>
         </Suspense>
       </div>
+      <div><ReactRemote3Component/></div>
     </div>
   );
 };

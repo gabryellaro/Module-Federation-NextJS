@@ -15,22 +15,14 @@
     "id": "index.js?hasBoundary -> remote1/title",
     "files": []
   },
+  "index.js?hasBoundary -> remote3/Nav": {
+    "id": "index.js?hasBoundary -> remote3/Nav",
+    "files": []
+  },
   "remote1.js -> ./remote1.js?hasBoundary": {
     "id": "remote1.js -> ./remote1.js?hasBoundary",
     "files": [
       "static/chunks/pages_remote1_js_hasBoundary.js"
-    ]
-  },
-  "remote2.js -> ./remote2.js?hasBoundary": {
-    "id": "remote2.js -> ./remote2.js?hasBoundary",
-    "files": [
-      "static/chunks/pages_remote2_js_hasBoundary.js"
-    ]
-  },
-  "remote3.js -> ./remote3.js?hasBoundary": {
-    "id": "remote3.js -> ./remote3.js?hasBoundary",
-    "files": [
-      "static/chunks/pages_remote3_js_hasBoundary.js"
     ]
   }
 }

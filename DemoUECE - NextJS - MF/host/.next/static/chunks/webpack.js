@@ -183,7 +183,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "916864d5baa5002a"; }
+/******/ 		__webpack_require__.h = function() { return "7af4445c0a22e337"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -272,39 +272,31 @@
 /******/ 	/* webpack/runtime/remotes loading */
 /******/ 	!function() {
 /******/ 		var chunkMapping = {
-/******/ 			"pages_remote2_js_hasBoundary": [
-/******/ 				"webpack/container/remote/remote2/remote2"
-/******/ 			],
 /******/ 			"pages_remote1_js_hasBoundary": [
 /******/ 				"webpack/container/remote/remote1/remote1"
 /******/ 			],
-/******/ 			"pages_remote3_js_hasBoundary": [
-/******/ 				"webpack/container/remote/remote3/remote3"
-/******/ 			],
 /******/ 			"webpack_container_remote_remote1_title": [
 /******/ 				"webpack/container/remote/remote1/title"
+/******/ 			],
+/******/ 			"webpack_container_remote_remote3_Nav": [
+/******/ 				"webpack/container/remote/remote3/Nav"
 /******/ 			]
 /******/ 		};
 /******/ 		var idToExternalAndNameMapping = {
-/******/ 			"webpack/container/remote/remote2/remote2": [
-/******/ 				"default",
-/******/ 				"./remote2",
-/******/ 				"webpack/container/reference/remote2"
-/******/ 			],
 /******/ 			"webpack/container/remote/remote1/remote1": [
 /******/ 				"default",
 /******/ 				"./remote1",
 /******/ 				"webpack/container/reference/remote1"
 /******/ 			],
-/******/ 			"webpack/container/remote/remote3/remote3": [
-/******/ 				"default",
-/******/ 				"./remote3",
-/******/ 				"webpack/container/reference/remote3"
-/******/ 			],
 /******/ 			"webpack/container/remote/remote1/title": [
 /******/ 				"default",
 /******/ 				"./title",
 /******/ 				"webpack/container/reference/remote1"
+/******/ 			],
+/******/ 			"webpack/container/remote/remote3/Nav": [
+/******/ 				"default",
+/******/ 				"./Nav",
+/******/ 				"webpack/container/reference/remote3"
 /******/ 			]
 /******/ 		};
 /******/ 		__webpack_require__.f.remotes = function(chunkId, promises) {
@@ -396,16 +388,15 @@
 /******/ 			var promises = [];
 /******/ 			switch(name) {
 /******/ 				case "default": {
-/******/ 					register("next/dynamic", "12.2.2", function() { return __webpack_require__.e("node_modules_next_dynamic_js").then(function() { return function() { return __webpack_require__(/*! ../node_modules/next/dynamic.js */ "../node_modules/next/dynamic.js"); }; }); });
-/******/ 					register("next/head", "12.2.2", function() { return __webpack_require__.e("node_modules_next_head_js").then(function() { return function() { return __webpack_require__(/*! ../node_modules/next/head.js */ "../node_modules/next/head.js"); }; }); });
-/******/ 					register("next/link", "12.2.2", function() { return __webpack_require__.e("node_modules_next_link_js").then(function() { return function() { return __webpack_require__(/*! ../node_modules/next/link.js */ "../node_modules/next/link.js"); }; }); });
-/******/ 					register("next/router", "12.2.2", function() { return __webpack_require__.e("node_modules_next_router_js").then(function() { return function() { return __webpack_require__(/*! ../node_modules/next/router.js */ "../node_modules/next/router.js"); }; }); });
-/******/ 					register("next/script", "12.2.2", function() { return __webpack_require__.e("node_modules_next_script_js").then(function() { return function() { return __webpack_require__(/*! ../node_modules/next/script.js */ "../node_modules/next/script.js"); }; }); });
-/******/ 					register("react-dom", "18.2.0", function() { return __webpack_require__.e("node_modules_react-dom_index_js").then(function() { return function() { return __webpack_require__(/*! ../node_modules/react-dom/index.js */ "../node_modules/react-dom/index.js"); }; }); });
-/******/ 					register("react", "18.2.0", function() { return __webpack_require__.e("node_modules_react_index_js").then(function() { return function() { return __webpack_require__(/*! ../node_modules/react/index.js */ "../node_modules/react/index.js"); }; }); });
-/******/ 					register("styled-jsx/style", "5.1.1", function() { return __webpack_require__.e("node_modules_styled-jsx_style_js").then(function() { return function() { return __webpack_require__(/*! ../node_modules/styled-jsx/style.js */ "../node_modules/styled-jsx/style.js"); }; }); });
-/******/ 					register("styled-jsx", "5.1.1", function() { return __webpack_require__.e("node_modules_styled-jsx_index_js").then(function() { return function() { return __webpack_require__(/*! ../node_modules/styled-jsx/index.js */ "../node_modules/styled-jsx/index.js"); }; }); });
-/******/ 					initExternal("webpack/container/reference/remote2");
+/******/ 					register("next/dynamic", "12.2.2", function() { return __webpack_require__.e("node_modules_next_dynamic_js").then(function() { return function() { return __webpack_require__(/*! ./node_modules/next/dynamic.js */ "./node_modules/next/dynamic.js"); }; }); });
+/******/ 					register("next/head", "12.2.2", function() { return __webpack_require__.e("node_modules_next_head_js").then(function() { return function() { return __webpack_require__(/*! ./node_modules/next/head.js */ "./node_modules/next/head.js"); }; }); });
+/******/ 					register("next/link", "12.2.2", function() { return __webpack_require__.e("node_modules_next_link_js").then(function() { return function() { return __webpack_require__(/*! ./node_modules/next/link.js */ "./node_modules/next/link.js"); }; }); });
+/******/ 					register("next/router", "12.2.2", function() { return __webpack_require__.e("node_modules_next_router_js").then(function() { return function() { return __webpack_require__(/*! ./node_modules/next/router.js */ "./node_modules/next/router.js"); }; }); });
+/******/ 					register("next/script", "12.2.2", function() { return __webpack_require__.e("node_modules_next_script_js").then(function() { return function() { return __webpack_require__(/*! ./node_modules/next/script.js */ "./node_modules/next/script.js"); }; }); });
+/******/ 					register("react-dom", "18.2.0", function() { return __webpack_require__.e("node_modules_react-dom_index_js").then(function() { return function() { return __webpack_require__(/*! ./node_modules/react-dom/index.js */ "./node_modules/react-dom/index.js"); }; }); });
+/******/ 					register("react", "18.2.0", function() { return __webpack_require__.e("node_modules_react_index_js").then(function() { return function() { return __webpack_require__(/*! ./node_modules/react/index.js */ "./node_modules/react/index.js"); }; }); });
+/******/ 					register("styled-jsx/style", "5.1.1", function() { return __webpack_require__.e("node_modules_styled-jsx_style_js").then(function() { return function() { return __webpack_require__(/*! ./node_modules/styled-jsx/style.js */ "./node_modules/styled-jsx/style.js"); }; }); });
+/******/ 					register("styled-jsx", "5.1.1", function() { return __webpack_require__.e("node_modules_styled-jsx_index_js").then(function() { return function() { return __webpack_require__(/*! ./node_modules/styled-jsx/index.js */ "./node_modules/styled-jsx/index.js"); }; }); });
 /******/ 					initExternal("webpack/container/reference/remote1");
 /******/ 					initExternal("webpack/container/reference/remote3");
 /******/ 				}
@@ -894,7 +885,7 @@
 /******/ 					if(installedChunkData) {
 /******/ 						promises.push(installedChunkData[2]);
 /******/ 					} else {
-/******/ 						if(!/^webpack(|_container_remote_remote1_title)$/.test(chunkId)) {
+/******/ 						if(!/^webpack(_container_remote_remote(1_title|3_Nav)|)$/.test(chunkId)) {
 /******/ 							// setup Promise in chunk cache
 /******/ 							var promise = new Promise(function(resolve, reject) { installedChunkData = installedChunks[chunkId] = [resolve, reject]; });
 /******/ 							promises.push(installedChunkData[2] = promise);
